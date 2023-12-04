@@ -1,7 +1,7 @@
  
 # Questions 
  
-1. Databricks Architecture & Services
+# 1. Databricks Architecture & Services
    
 1.1. What are the two main components of the Databricks Architecture?
    
@@ -25,7 +25,7 @@
 
 1.11. What happens when you terminate / restart / delete a cluster? 
 
-2. Basic Operations for Databricks Notebooks
+# 2. Basic Operations for Databricks Notebooks
 
 2.1. Which magic command do you use to run a notebook from another notebook? 
 
