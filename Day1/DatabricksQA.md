@@ -33,13 +33,13 @@
 
 2.3. What function should you use when you have tabular data returned by a Python cell? 
 
-3. Git Versioning with Databricks Repos
+# 3. Git Versioning with Databricks Repos
 
 3.1. What is Databricks Repos? 
 
 3.2. What are the recommended CI/CD best practices to follow when developing with Repos?  
 
-4. Delta Lake and the Lakehouse
+# 4. Delta Lake and the Lakehouse
    
 4.1. What is the definition of a Delta Lake?
    
@@ -59,7 +59,7 @@
 
 4.9. How do relational objects work in Delta Live Tables?
 
-5. Managing Delta Tables
+# 5. Managing Delta Tables
    
 5.1. What is the syntax to create a Delta Table?
    
@@ -75,7 +75,7 @@
 
 5.7. What is the syntax to delete a table? 
 
-6. Advanced Delta Lake Features
+# 6. Advanced Delta Lake Features
 
 6.1. What is Hive? 
 
@@ -98,7 +98,7 @@ command?
 
 6.10. Using Delta Cache  
 
-7. Databases and Tables on Databricks
+# 7. Databases and Tables on Databricks
    
 7.1. What is the syntax to create a database with default location (no location specified)? 
 
@@ -118,7 +118,7 @@ command?
 
 7.9. What is the command to drop the database and its underlying tables and views?
 
-8. Views and CTEs on Databricks
+# 8. Views and CTEs on Databricks
 
 8.1. How can you show a list of tables and views?
 
@@ -144,7 +144,7 @@ command?
 
 8.12. What is the syntax for defining a CTE in a CREATE VIEW statement?   
 
-9. Extracting Data Directly from Files
+# 9. Extracting Data Directly from Files
 
 9.1. How do you query data from a single file?  
 
@@ -156,7 +156,7 @@ command?
 
 9.5. How do you extract the raw bytes and metadata of a file? What is a typical use case for this?  
 
-10. Providing Options for External Sources
+# 10. Providing Options for External Sources
 
 10.1. Explain why executing a direct query against CSV files rarely returns the desired result.  
 
@@ -176,7 +176,7 @@ command?
 
 10.9. Explain the two basic approaches that Spark uses to interact with external SQL databases and their limits  
 
-11. Creating Delta Tables
+# 11. Creating Delta Tables
   
 11.1. What is a CTAS statement and what is the syntax?
 
@@ -198,7 +198,7 @@ command?
 
 11.10. What are the two options to copy Delta Lake tables and what are the use cases?  
 
-12. Writing to Delta Tables
+# 12. Writing to Delta Tables
 
 12.1. What are the multiple benefits of overwriting tables instead of deleting and recreating tables?  
 
@@ -216,7 +216,7 @@ command?
 
 12.8. How is COPY INTO different than Auto Loader?   
 
-13. Cleaning Data
+# 13. Cleaning Data
 
 13.1. Do COUNT and DISTINCT queries skip or count nulls?  
 
@@ -228,7 +228,7 @@ command?
 
 13.5. What is the syntax for regex?  
 
-14. Advanced SQL Transformations
+# 14. Advanced SQL Transformations
 
 14.1. What is the syntax to deal with binary-encoded JSON values in a human readable format? 
 
@@ -270,7 +270,7 @@ command?
 
 14.20. What is the syntax for REDUCE ?   
 
-15. SQL UDFs and Control Flow
+# 15. SQL UDFs and Control Flow
 
 15.1. What is the syntax to define and register SQL UDFs? How do you then apply that function to the data?  
 
@@ -287,7 +287,7 @@ command?
 15.7. What is the benefit of using SQL UDFs?  
 
 
-16. Python for Databricks SQL & Python Control Flow
+# 16. Python for Databricks SQL & Python Control Flow
 
 16.1. What is the syntax to turn SQL queries into Python strings?  
 
@@ -315,7 +315,7 @@ command?
 
 16.13. How do you apply these concepts to execute SQL logic on Databricks, for example to avoid SQL injection attack?  
 
-17. Incremental Data Ingestion with Auto Loader
+# 17. Incremental Data Ingestion with Auto Loader
 
 17.1. What is incremental ETL? 
 
@@ -341,7 +341,7 @@ command?
 
 17.12. How do you track the ingestion progress?  
 
-18. Reasoning about Incremental Data with Spark Structured Streaming
+# 18. Reasoning about Incremental Data with Spark Structured Streaming
 
 18.1. What is Spark Structured Streaming?  
 
@@ -363,7 +363,7 @@ command?
 
 18.10. What is the syntax to load data from a streaming temp view back to a DataFrame, and then query the table that we wrote out to?  
 
-19. Incremental Multi-Hop in the Lakehouse
+# 19. Incremental Multi-Hop in the Lakehouse
 
 19.1. Describe Bronze, Silver, and Gold tables 
 
@@ -385,7 +385,7 @@ command?
 
 19.10. Describe the two options to incrementally process data, either with a triggered option or a continuous option.  
 
-20. Using the Delta Live Tables UI
+# 20. Using the Delta Live Tables UI
 
 20.1. Describe how Delta Live Tables makes the ETL lifecycle easier.  
 
@@ -398,7 +398,7 @@ command?
 20.6. How do you explore the DAG?  
 
 
-21. SQL for Delta Live Tables
+# 21. SQL for Delta Live Tables
 
 21.1. What is the syntax to do streaming with SQL for Delta Live tables? What's the keyword that shows you're using Delta Live Tables?  
 
@@ -406,13 +406,12 @@ command?
 
 21.3. What keyword can you use for quality control? How do you reference DLT Tables/Views and streaming tables?  
 
-
 21.4. Declaring gold tables.  
 
 21.5. How can you explore the results in the UI?  
 
 
-22. Orchestrating Jobs with Databricks
+# 22. Orchestrating Jobs with Databricks
     
 22.1. What is a Job?
     
@@ -446,7 +445,7 @@ command?
 
 22.16. Notebook job tips  
 
-23. Navigating Databricks SQL and Attaching to Warehouses
+# 23. Navigating Databricks SQL and Attaching to Warehouses
 
 23.1. How do you visualise dashboards and insights from your query results?  
 
@@ -466,16 +465,15 @@ command?
 
 23.9. Can you only use the UI when working with DB SQL?  
 
-24. Introducing Unity Catalog
+# 24. Introducing Unity Catalog
 
 24.1. List the four key functional areas for data governance.  
 
 24.2. Explain how Unity Catalog simplifies this with one tool to cover all of these areas.  
 
-24.3. Walk through a traditional query lifecycle, and how it changes when using Unity Catalog. Highlight the 
-differences and why this makes a query lifecycle much simpler for data consumers.  
+24.3. Walk through a traditional query lifecycle, and how it changes when using Unity Catalog. Highlight the differences and why this makes a query lifecycle much simpler for data consumers.  
 
-25. Managing Permissions for Databases, Tables, and Views
+# 25. Managing Permissions for Databases, Tables, and Views
 
 25.1. What is the data explorer, how do you access it and what does it allow you to do?  
 
